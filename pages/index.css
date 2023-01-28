@@ -1,0 +1,106 @@
+
+
+*{
+    font-family:Gilroy;
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    margin: 0 auto;
+    /* max-width: 1440px; */
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+
+.header{
+    align-items: center;
+    padding: 47px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    width: 41px;
+    margin-left: 80px;
+}
+
+.header__menu{
+    font-size: 18px;
+    line-height: 22px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.header__menu-link:hover{
+    color: #F7941E;
+}
+
+.header__menu-item:not(:last-child){
+    margin-right: 31px;
+}
+
+.header__button{
+    /* width: 150px;
+    height: 43px; */
+    padding: 14px 25px;
+    margin-right: 34px;
+    box-sizing: border-box;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header__button:hover{
+ background-color:#F7941E;
+}
+
+.header__button:hover .header__button-link{
+    color: white;
+}
+
+.header__button-link{
+    display: block;
+    color: #F7941E;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* find */
+
+.find {
+    display: flex;
+ max-height: 700px;
+ background-color: #F1F1F2;;
+}
+
+.find__title{
+    font-size: 56px;
+    line-height: 69px;
+}
+
+/* .find__image{
+    background: url(../images/find-photo.png) center center/cover no-repeat;
+} */
